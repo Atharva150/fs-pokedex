@@ -18,12 +18,6 @@ app.get('/version', (req, res) => {
   res.send('2')
 })
 
-app.get('/test'),(req,res) => {
-  res.send('testing')
-}
-
-console.log('deployment test')
-
 const start = async () => {
   await app.listen(PORT)
   console.log(`server started on port ${PORT}`)
