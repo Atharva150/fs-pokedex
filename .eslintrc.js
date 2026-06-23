@@ -44,7 +44,6 @@ module.exports = {
       "error", { "before": true, "after": true }
     ],
     "no-console": "error",
-    "react/prop-types": 0,
-    "no-extra-semi": "off"
+    "react/prop-types": 0
   }
 }
